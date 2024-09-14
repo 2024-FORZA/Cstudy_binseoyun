@@ -4,13 +4,13 @@ int main() {
 	scanf("%d %d", &N, &M);
 	int ball[101] = { 0 };
 	ball[0] = 0;
-	for (int i = 1; i <= N; i++) { // N=5, 0,1,2,3,4,5 ball[N+1]ÀÌ ¸¸µé¾îÁ®¾Æ ÇÔ
+	for (int i = 1; i <= N; i++) { // N=5, 0,1,2,3,4,5 ball[N+1]ì´ ë§Œë“¤ì–´ì ¸ì•„ í•¨
 
-		ball[i] = i; //¹è¿­ÀÇindex¿Í ¹Ù±¸´Ï ¹øÈ£ÀÇ ¹øÈ£¸¦ ¸ÂÃã
+		ball[i] = i; //ë°°ì—´ì˜indexì™€ ë°”êµ¬ë‹ˆ ë²ˆí˜¸ì˜ ë²ˆí˜¸ë¥¼ ë§žì¶¤
 	}
 
 	int temp;
-	for (int k = 0; k < M; k++) { //M¹ø ¹Ýº¹
+	for (int k = 0; k < M; k++) { //Më²ˆ ë°˜ë³µ
 		int i, j = 0;
 		scanf("%d %d", &i, &j);
 		
