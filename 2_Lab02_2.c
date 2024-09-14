@@ -2,10 +2,10 @@
 int main() {
 	int A, B;
 	scanf("%d %d", &A, &B);
-	int time = A * 60 + B; //ÇöÀç½Ã°¢À» ºĞÀ¸·Î
+	int time = A * 60 + B; //í˜„ì¬ì‹œê°ì„ ë¶„ìœ¼ë¡œ
 	int C;
 	scanf("%d", &C);
-	int hour = C + time; //ÇÊ¿äÇÑ ½Ã°¢À» ´õÇÑ °Í
+	int hour = C + time; //í•„ìš”í•œ ì‹œê°ì„ ë”í•œ ê²ƒ
 
 	int t = hour / 60;
 	int m = hour % 60;
