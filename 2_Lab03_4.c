@@ -1,5 +1,5 @@
-/*
-//2863¹ø
+
+//2863Â¹Ã¸
 #include<stdio.h>
 
 int main() {
@@ -30,4 +30,4 @@ int main() {
 	}
 	printf("%d", count);
 
-}*/
+}
