@@ -1,10 +1,10 @@
-/*
-//2460¹ø
+
+//2460ë²ˆ
 #include<stdio.h>
 int main() {
 	int in[10];
 	int out[10];
-	for (int i = 0; i < 10; i++) { //Åº»ç¶÷ ³»¸°»ç¶÷ ÀÔ·Â¹ÞÀ½
+	for (int i = 0; i < 10; i++) { //íƒ„ì‚¬ëžŒ ë‚´ë¦°ì‚¬ëžŒ ìž…ë ¥ë°›ìŒ
 		scanf("%d %d", &out[i], &in[i]);
 	}
 
@@ -22,4 +22,4 @@ int main() {
 	}
 	printf("%d", max);
 
-}*/
+}
