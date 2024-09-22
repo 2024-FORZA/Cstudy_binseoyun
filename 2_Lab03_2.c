@@ -1,5 +1,5 @@
-/*
-//1357¹ø
+
+//1357ë²ˆ
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -15,7 +15,7 @@ int main() {
     int sum = x_r + y_r;
 
     char sum_arr[10];  
-    sprintf(sum_arr, "%d", sum); //sumÀ» sum_arr·Î º¯°æÇØÁØ´Ù
+    sprintf(sum_arr, "%d", sum); //sumì„ sum_arrë¡œ ë³€ê²½í•´ì¤€ë‹¤
 
     printf("%d", reverse(sum_arr));
     return 0;
@@ -23,12 +23,11 @@ int main() {
 
 int reverse(char a[]) {  
     int len = strlen(a);
-    char new[5];  // Å©±â 5·Î À¯Áö
+    char new[5];  // í¬ê¸° 5ë¡œ ìœ ì§€
     for (int i = len - 1; i >= 0; i--) {
         new[len - i - 1] = a[i];
     }
-    new[len] = '\0';  // Á¾·á ¹®ÀÚ »ğÀÔ
+    new[len] = '\0';  // ì¢…ë£Œ ë¬¸ì ì‚½ì…
 
-    return atoi(new);  // ¹®ÀÚ¿­À» ¼ıÀÚ·Î º¯È¯
+    return atoi(new);  // ë¬¸ìì—´ì„ ìˆ«ìë¡œ ë³€í™˜
 }
-*/
