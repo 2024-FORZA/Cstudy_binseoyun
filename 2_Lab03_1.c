@@ -1,8 +1,8 @@
-/*
-//1157¹ø
+
+//1157ë²ˆ
 #include<stdio.h>
 #include<string.h>
-#include<ctype.h> //¼Ò¹®ÀÚ¸¦ ´ë¹®ÀÚ·Î º¯°æÇÏ±â À§ÇØ
+#include<ctype.h> //ì†Œë¬¸ìë¥¼ ëŒ€ë¬¸ìë¡œ ë³€ê²½í•˜ê¸° ìœ„í•´
 int main() {
 	char word[1000001];
 	scanf("%s", word);
@@ -14,7 +14,7 @@ int main() {
 
 	}
 	
-	int count[26] = { 0 };//¾ËÆÄºªÀÌ 26°³, ¾ËÆÄºªÀÇ ºóµµ¸¦ ÀúÀå, indexºÎºĞ¿¡´Â ¾ËÆÄºª, valueºÎºĞ¿£ ¾ËÆÄºªº° ºóµµ
+	int count[26] = { 0 };//ì•ŒíŒŒë²³ì´ 26ê°œ, ì•ŒíŒŒë²³ì˜ ë¹ˆë„ë¥¼ ì €ì¥, indexë¶€ë¶„ì—ëŠ” ì•ŒíŒŒë²³, valueë¶€ë¶„ì—” ì•ŒíŒŒë²³ë³„ ë¹ˆë„
 
 	for (int i = 0; i < len; i++) {
 		count[word[i] - 'A'] += 1;
@@ -37,7 +37,7 @@ int main() {
 		printf("?");
 	}
 	else {
-		printf("%c", max_index+'A'); //word[i] - 'A' °ªÀÌ max_idexÀÏ¶§ÀÇ ¾ËÆÄºªÀÌ´Ï
+		printf("%c", max_index+'A'); //word[i] - 'A' ê°’ì´ max_idexì¼ë•Œì˜ ì•ŒíŒŒë²³ì´ë‹ˆ
 	}
 	return 0;
-}*/
+}
