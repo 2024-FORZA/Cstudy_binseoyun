@@ -1,4 +1,4 @@
-/#include <stdio.h>
+#include <stdio.h>
 #define MAX 10001  //outofbouns 되서 상수로 설정
 
 int main() {
